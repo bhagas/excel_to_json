@@ -1,0 +1,36 @@
+
+        hr{
+            border-top: 1px dashed black;
+
+        }
+        td{
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        @font-face{
+          font-family:'Roboto-Regular';
+          src: url('fonts/Roboto-Regular.ttf');
+        }
+
+        #Roboto-Regular{
+          font-family:Roboto-Regular;  
+        }
+
+
+        p,h1,h2,h3,h3,h5,h6,li,a,td{
+            font-family:Roboto-Regular;
+            font-size: 10px;
+        }
+
+        @media print  
+{
+    div{
+         page-break-before: always;
+        page-break-inside: avoid;
+    }
+}
+  body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
