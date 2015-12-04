@@ -23,7 +23,7 @@ Supported write formats:
 - CSV (and general DSV)
 - JSON and JS objects (various styles)
 
-Demo: <http://oss.sheetjs.com/js-xlsx>
+
 
 Source: <http://git.io/xlsx>
 
